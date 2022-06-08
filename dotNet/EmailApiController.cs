@@ -1,20 +1,3 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using Sabio.Models.AppSettings;
-using Sabio.Models.Requests.Emails;
-using Sabio.Services;
-using Sabio.Web.Controllers;
-using Sabio.Web.Models.Responses;
-using SendGrid;
-using SendGrid.Helpers.Mail;
-using System;
-using System.Threading.Tasks;
-
-
-namespace Sabio.Web.Api.Controllers
-{
     [Route("api/emails")]
     [ApiController]
     public class EmailApiController : BaseApiController
@@ -55,4 +38,3 @@ namespace Sabio.Web.Api.Controllers
         }
 
     }
-}

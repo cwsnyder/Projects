@@ -1,5 +1,3 @@
-namespace Sabio.Services
-{
     public class EmailService : IEmailService
     {
 

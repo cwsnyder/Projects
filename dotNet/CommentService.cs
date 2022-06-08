@@ -1,18 +1,3 @@
-﻿using Sabio.Data;
-using Sabio.Data.Providers;
-using Sabio.Models.Domain.Comments;
-using Sabio.Models.Requests.Comments;
-using Sabio.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Sabio.Services.Comments
-{
     public class CommentService : ICommentService
     {
         IDataProvider _data = null;
@@ -149,4 +134,3 @@ namespace Sabio.Services.Comments
             return comment;
         }
     }
-}

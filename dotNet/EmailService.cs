@@ -1,19 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
-using Sabio.Models.AppSettings;
-using Sabio.Models.Requests.Emails;
-using Sabio.Web.Models.Responses;
-using SendGrid;
-using SendGrid.Helpers.Mail;
-
-
 namespace Sabio.Services
 {
     public class EmailService : IEmailService
